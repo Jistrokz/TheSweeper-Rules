@@ -2,7 +2,7 @@ rule Password_File{
     meta:
         author = "Kartavya"
         description = "There were files found titled password.txt "
-	version = "0.1"
+	
     strings:
         $c1 = "OpenProcess"
         $c2 = "VirtualAllocEx"
